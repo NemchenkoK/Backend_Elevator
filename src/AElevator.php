@@ -2,9 +2,7 @@
 abstract class AElevator {
     protected $limit;
     protected $people;
-    protected $maxFloor;
-    protected $currFloor;
-    
+    protected $state;
     abstract public function getInfo();
     abstract public function checkedPeople();
     abstract public function loadingPeople($people);
