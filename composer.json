@@ -1,0 +1,15 @@
+{
+    "name": "vendoe/task2",
+    "description": "Task 2",
+    "authors": [
+        {
+            "name": "Konstantin Nemchenko",
+            "email": "nemchenko.k.k@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "classmap": ["src/"]
+    }
+}
